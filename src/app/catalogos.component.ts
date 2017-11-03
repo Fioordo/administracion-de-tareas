@@ -24,9 +24,6 @@ export class CatalogosComponent implements OnInit {
     }
 
     add(nombre: string, apellido: string): void {
-     // console.log(id, firstName, lastName);
-     // id = id;
-     // if (!id) { return; }
       this.catalogoService.createCatalogo(nombre, apellido )
 
         .then(catalogo => {
