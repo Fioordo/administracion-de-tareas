@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  background-color: rgb(255, 255, 255);
+}
+input{
+background-color: rgb(216, 194, 194);
+
+}
+.form-control {
+background-color: rgb(255, 255, 255);
+}

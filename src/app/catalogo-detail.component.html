@@ -1,0 +1,16 @@
+<div *ngIf="catalogo">
+  <h2>Detalles de {{catalogo.nombre}}</h2>
+  <div>
+    <label>id: </label>{{catalogo.id}}</div>
+  <div>
+    <label>nombre: </label>
+    <input [(ngModel)]="catalogo.nombre" placeholder="Nombre" />
+   </div>
+   <div>
+    <label>Apellido: </label>
+    <input [(ngModel)]="catalogo.apellido" placeholder="Apellido" />
+
+   </div>
+  <button class="btn btn-sucess" (click)="goBack()">Regresar</button>
+  <button class="btn btn-sucess" (click)="save()">Guardar</button>
+</div>
